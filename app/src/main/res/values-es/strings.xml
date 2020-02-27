@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My First Application</string>
+    <string name="run_command">Ejecutar</string>
+    <string-array name="country_array">
+        <item>Cis-hombre</item>
+        <item>Cis-mujer</item>
+        <item>Trans-hombre</item>
+        <item>Trans-mujer</item>
+    </string-array>
+</resources>

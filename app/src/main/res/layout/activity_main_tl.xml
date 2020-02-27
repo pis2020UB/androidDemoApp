@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityTL"
+    android:padding="10dp"
+    android:stretchColumns="1">
+
+    <TableRow android:background="#8BC34A">
+        <TextView
+            android:layout_column="0"
+            android:id="@+id/tl_tv1"
+            android:text="Grup F"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_column="2"
+            android:id="@+id/tl_tv2"
+            android:text="Hores"
+            android:textSize="20sp"/>
+    </TableRow>
+
+    <TableRow android:background="#ffffff">
+        <TextView
+            android:layout_column="0"
+            android:id="@+id/tl_tv3"
+            android:text="Rick Sanchez"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_column="2"
+            android:id="@+id/tl_tv4"
+            android:text="20h"
+            android:textSize="20sp"/>
+    </TableRow>
+
+    <TableRow android:background="#C3CFB3">
+        <TextView
+            android:layout_column="0"
+            android:id="@+id/tl_tv5"
+            android:text="Karim Lekadir"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_column="2"
+            android:id="@+id/tl_tv6"
+            android:text="10h"
+            android:textSize="20sp"/>
+    </TableRow>
+
+
+    <TableRow android:background="#ffffff">
+        <TextView
+            android:layout_column="0"
+            android:id="@+id/tl_tv7"
+            android:text="Ricky Gervais"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_column="2"
+            android:id="@+id/tl_tv8"
+            android:text="5h"
+            android:textSize="20sp"/>
+    </TableRow>
+
+
+    <TableRow android:background="#C3CFB3">
+        <TextView
+            android:layout_column="0"
+            android:id="@+id/tl_tv9"
+            android:text="Shinzo Abe"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_column="2"
+            android:id="@+id/tl_tv10"
+            android:text="7h"
+            android:textSize="20sp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Total"
+            android:textSize="20sp"
+            android:id="@+id/tl_tv11" />
+
+        <TextView
+            android:layout_column="2"
+            android:text="42h"
+            android:textSize="20sp"
+            android:id="@+id/tl_tv12"/>
+    </TableRow>
+
+
+</TableLayout>
